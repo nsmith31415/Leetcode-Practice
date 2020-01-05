@@ -3,7 +3,7 @@ package Datastructures;
 /**
  * LinkedList
  */
-public class LinkedList {
+public class LinkedList<E> {
 
     //Main for testing linked list stuff
     public static void main(String[] args) {
@@ -13,15 +13,15 @@ public class LinkedList {
     Node head;
 
     class Node {
-        int data;
+        E data;
         Node next;
 
-        Node(int data) {
+        Node(E data) {
             this.data=data;
             next=null;
         }
     }
-    public LinkedList insert(LinkedList list, int data){
+    public LinkedList<E> insert(LinkedList<E> list, E data){
 
         //creating new node
         Node newnode = new Node(data);
@@ -39,6 +39,14 @@ public class LinkedList {
                 end.next = newnode;
             }
         return list;
+    }
+
+    public void print(LinkedList<E> list){
+        Node node = list.head;
+        while(node !=null){
+            System.out.println(node.data + " ");
+            node = node.next;
+        }
     }
         
 }
