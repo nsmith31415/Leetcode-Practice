@@ -1,4 +1,4 @@
-package app;
+package Leetcode;
 
 public class ClimbingStairs {
     public static void main(String[] args) throws Exception {
