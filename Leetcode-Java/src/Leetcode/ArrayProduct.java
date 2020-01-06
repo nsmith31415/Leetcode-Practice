@@ -55,12 +55,10 @@ public class ArrayProduct {
             right[arr.length-1]=1;
             for(int i=1; i<arr.length; i++){
                 left[i]=arr[i-1]*left[i-1];
-                System.out.println("Left: " + left[i]);
             }
 
             for(int j=arr.length-2; j>=0; j--){
                 right[j]=arr[j+1]*right[j+1];
-                System.out.println("Right: " + right[j]);
 
             }
             
