@@ -46,4 +46,3 @@ public class Queue<E> extends LinkedList<E> {
         System.out.println(test.dequeue());
         System.out.println(test.dequeue());
     }
-}
