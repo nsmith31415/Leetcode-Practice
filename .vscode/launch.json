@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArrayProduct",
+            "request": "launch",
+            "mainClass": "Leetcode.ArrayProduct",
+            "projectName": "Leetcode-Java"
+        }
+    ]
+}

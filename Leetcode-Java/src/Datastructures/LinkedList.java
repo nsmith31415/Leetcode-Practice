@@ -45,7 +45,7 @@ public class LinkedList<E> {
         Node node = list.head;
         while(node !=null){
             System.out.println(node.data + " ");
-            node = node.next;
+            node = node.next;   
         }
     }
         
